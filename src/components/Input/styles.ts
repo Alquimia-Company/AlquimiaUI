@@ -8,17 +8,12 @@ export const Label = styled.label<ILabel>`
   margin-bottom: 2rem;
 
   > input {
-    background-color: '#f2f2f2';
-    border: 2px solid #040c12;
+    width: 100%;
+    background: #f2f2f2;
+    border: none;
     border-radius: 4px;
-
-    padding: 16px;
-    padding-left: ${(props) => (props.icon ? '40px' : '16px')};
-
-    color: '#000';
-    font-size: 16px;
-
-    transition: 180ms ease-in-out;
+    height: 70px;
+    padding: 0 24px;
 
     &::placeholder {
       color: 'grey';
